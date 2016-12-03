@@ -12,9 +12,9 @@
 				<li>
 					<a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a>
 				</li>
-{{ if isset .Site.Params "linkedin_source" }}
+{{ if .Site.Params.linkedin.source }}
 				<li>
-					<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&source={{.Site.Params.linkedin_source}}" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a>
+					<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&source={{.Site.Params.linkedin.source}}" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a>
 				</li>
 {{ end }}
 				<li>
@@ -34,39 +34,39 @@
 		<span class="icon icon-rocket"> </span><span class="title"> follow </span>
 		<div class="dropdown follow">
 			<ul class="social">
-{{ if isset .Site.Params "feedburner_account" }}
+{{ if .Site.Params.feedburner.account }}
 				<li>
-					<a href="http://feeds.feedburner.com/{{.Site.Params.feedburner_account}}" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a>
+					<a href="http://feeds.feedburner.com/{{.Site.Params.feedburner.account}}" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "twitter_account" }}
+{{ if .Site.Params.twitter.account }}
 				<li>
-					<a href="http://www.twitter.com/{{.Site.Params.twitter_account}}" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a>
+					<a href="http://www.twitter.com/{{.Site.Params.twitter.account}}" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "facebook_account" }}
+{{ if .Site.Params.facebook.account }}
 				<li>
-					<a href="http://www.facebook.com/{{.Site.Params.facebook_account}}" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a>
+					<a href="http://www.facebook.com/{{.Site.Params.facebook.account}}" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "linkedin_account" }}
+{{ if .Site.Params.linkedin.account }}
 				<li>
-					<a href="http://www.linkedin.com/in/{{.Site.Params.linkedin_account}}" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a>
+					<a href="http://www.linkedin.com/in/{{.Site.Params.linkedin.account}}" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "github_account" }}
+{{ if .Site.Params.github.account }}
 				<li>
-					<a href="http://github.com/{{.Site.Params.github_account}}" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a>
+					<a href="http://github.com/{{.Site.Params.github.account}}" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "googleplus_account" }}
+{{ if .Site.Params.googleplus.account }}
 				<li>
-					<a href="http://gplus.to/{{.Site.Params.googleplus_account}}" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a>
+					<a href="https://plus.google.com/{{.Site.Params.googleplus.account}}" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a>
 				</li>
 {{ end }}
-{{ if isset .Site.Params "slideshare_account" }}
+{{ if .Site.Params.slideshare.account }}
 				<li>
-					<a href="http://slideshare.com/{{.Site.Params.slideshare_account}}" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a>
+					<a href="http://slideshare.com/{{.Site.Params.slideshare.account}}" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a>
 				</li>
 {{ end }}
 			</ul>
