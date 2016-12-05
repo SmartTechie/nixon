@@ -16,3 +16,4 @@ min_version = 0.17
   name     = "Steven Francia"
   homepage = "https://apf13.com/"
   repo     = "https://github.com/spf13/spf13.com"
+  roots    = "http://spf13.com/post/go-go-hugo-blog/"
