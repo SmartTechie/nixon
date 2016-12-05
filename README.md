@@ -12,11 +12,13 @@ This is the source for http://spf13.com. I use [Hugo](http://hugo.spf13.com) to 
 
 The following files and directories including their contents are Copyright Steve Francia, or their respective copyright holders:
 
-* content/
-* static/media/
-* static/static/fonts/
-* static/favicon.ico
-* static/apple-touch-icon.png
+* static/fonts/spf13-1.*
+* static/img/maximus-leo.jpg
+* static/img/nulla.png
+* static/img/pellentesque.jpg
+* static/img/sociosqu.png
+* static/img/tincidunt.png
+* static/img/ullamcorper.jpg
 
 All other directories and files are MIT Licensed unless clearly designated otherwise.
 
