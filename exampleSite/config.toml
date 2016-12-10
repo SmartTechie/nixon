@@ -49,3 +49,7 @@ Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper loborti
 		account = "nixon.example"
 	[params.slideshare]
 		account = "nixon.example"
+
+	[params.license]
+		url = "http://creativecommons.org/licenses/by/3.0/"
+		attribution = "Some rights reserved"
